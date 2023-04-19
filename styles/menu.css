@@ -1,0 +1,100 @@
+html {
+    font-family: 'Eurostile Extended', sans-serif;
+    background-color: #3d323d;
+}
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    width: 800;
+    margin: 0;
+    padding: 0;
+}
+section {
+    font-size: 20px;
+    color: #c9c9c9;
+    margin: auto;
+    margin-top: 2rem;
+    margin-left: 12%;
+    padding: 10px;
+    text-align: left;
+    line-height: 1.2;
+    border-radius: 10px;
+    background-color: #6b3e22;
+    width: 80%;
+}
+.item {
+    width: 35%;
+}
+h1 {
+    color: #c9c9c9;
+    text-align: center;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.itemimg {
+    display: block;
+    margin-left: 7%;
+    margin-bottom: 1rem;
+    width: 80%;
+}
+.hotpot {
+    display: block;
+    margin-left: 27%;
+    margin-top: 2rem;
+    width: 50%;
+    border-radius: 10px;
+}
+.menucontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.navbar{
+    margin-top: -2rem;
+    width: 5rem;
+    height: 100vh;
+    position: fixed;
+    background-color: #a15f35;
+    transition: width 600ms ease;
+}
+.navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nav-item {
+    width: 100%
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    color: #c9c9c9;
+    text-decoration: none;
+}
+.link-text {
+    display: none;
+    margin-left: 1rem;
+}
+
+.nav-link svg {
+    min-width: 2rem;
+    margin: 0 1.5rem;
+    max-width: 2rem;
+}
+
+.navbar:hover {
+    width: 16rem;
+}
+
+.nav-link:hover { 
+    background: #6b3e22;
+}
+
+.navbar:hover .link-text {
+    display: block;
+}
